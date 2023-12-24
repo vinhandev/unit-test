@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "unit-test",
+    "slug": "unittest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vinhandev.unittest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vinhandev.unittest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0248bc61-e856-4976-b2a2-691aab8df70c"
+      }
+    },
+    "owner": "vinhandev",
+    "plugins": [
+      "@config-plugins/detox"
+    ]
+  }
+}
